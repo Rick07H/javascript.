@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Vamos contar!</h1>
+    <p>Insira os valores de início, fim e incremento:</p>
+
+    <div class="bloco_contador">
+        <input type="number" class="valores" id="inicio" min="0" placeholder="Digite o valor de início">
+        <input type="number" class="valores" id="fim" min="1" placeholder="Digite o valor do fim">
+        <input type="number" class="valores" id="incremento" placeholder="Digite o valor do incremento">
+        <div class="botoes">
+            <button id="contar" onclick="contar()">Contar</button>
+            <button onclick="limpar()">Limpar</button>
+        </div>
+
+        <div id="resultado">
+
+        </div>
+
+    </div> 
+
+    <script src="script.js"></script>
+
+</body>
+</html>
