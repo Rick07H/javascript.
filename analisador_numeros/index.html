@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analisador de Números</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="analisador">
+        <h1>Analisador de Números</h1>
+            <p>Insira um número para análise:</p>
+            <input type="number" id="numero" placeholder="Digite um número:" min="0" max="100"> 
+            <button onclick="adicionar()">Adicionar</button>
+            <button onclick="finalizar()">Finalizar</button>
+            <select id="lista" size="10"></select>
+
+            <div id="resultado"></div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
